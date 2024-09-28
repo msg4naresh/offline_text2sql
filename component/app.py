@@ -9,7 +9,7 @@ from llama_index.llms.ollama import Ollama
 
 # Function to initialize settings
 def initialize_settings():
-    Settings.llm = Ollama(model="gemma2:latest", request_timeout=120.0)
+    Settings.llm = Ollama(model="llama3.2", request_timeout=120.0)
     Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
 
 
