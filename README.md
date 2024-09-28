@@ -3,7 +3,7 @@ Run your Text2SQL Models Locally with Ollama
 
 
 # Locally Hosted Text2SQL App – Works Completely Offline
-This is a quick demo of how to get a fully local Text2SQL model up and running using gemma with Ollama and llamaindex.
+This is a quick demo of how to get a fully local Text2SQL model up and running using Llama with Ollama and llamaindex.
 
 
 ## Install dependencies
@@ -11,7 +11,7 @@ Ollama, an accessible tool for MacOS, Linux, and Windows users, offers seamless 
 
  just open your terminal & run:
 ```
-$ ollama run gemma
+$ ollama run llama3.2
 ```
 Clone this repository and run the below command from this Repository to install the dependencies
 
